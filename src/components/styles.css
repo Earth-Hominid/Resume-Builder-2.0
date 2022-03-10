@@ -1,0 +1,485 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#logo {
+  height: 200px;
+  width: auto;
+}
+#logo-holder {
+  margin-left: 2vw;
+}
+.navigation {
+  height: 10.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav_headline {
+  color: white;
+  font-family: Roboto;
+  font-size: 2.5em;
+}
+
+.card_header {
+  display: flex;
+  justify-content: center;
+}
+
+.p_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.welcome_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  margin-bottom: 8px;
+  max-width: 740px;
+  font-size: 1.5em;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+.welcome_button_holder {
+  margin-top: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.23em;
+  width: 15vw;
+  min-width: 150px;
+  height: 7vh;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  color: white;
+  background-color: #02bd9c;
+  padding: 14px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-width: 0;
+}
+
+.welcome_button:hover {
+  background-color: #008060;
+}
+
+.form_text {
+  font-size: calc(10px + 2vmin);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main_form_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.personal_form {
+  display: grid;
+}
+
+.input {
+  width: 60vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #02bd9c;
+  border-radius: 20px;
+  font-size: calc(8px + 1vmin);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-indent: 5px;
+}
+
+.textarea_input {
+  width: 60vw;
+  height: 20vh;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #02bd9c;
+  border-radius: 4px;
+  font-size: calc(8px + 1vmin);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  resize: none;
+  text-indent: 5px;
+}
+
+.input:focus {
+  outline: none !important;
+  border: 2px solid #008060;
+}
+
+.textarea_input:focus {
+  outline: none !important;
+  border: 2px solid #008060;
+}
+
+.education_input {
+  width: 60vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #004c3f;
+  border-radius: 20px;
+  font-size: calc(8px + 1vmin);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#continue_button {
+  max-width: 150px;
+  text-align: center;
+  font-size: 0.85rem;
+  border: 2px solid #02bd9c;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #02bd9c;
+  font-weight: 600;
+  padding: 0.8em;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+#continue_button:hover {
+  color: white;
+  background-color: #02bd9c;
+}
+
+.continue_button:focus {
+  outline: none !important;
+  border: 2px solid #008060;
+}
+
+#submit_button {
+  max-width: 150px;
+  text-align: center;
+  font-size: 0.85rem;
+  border: 2px solid #02bd9c;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #02bd9c;
+  font-weight: 600;
+  padding: 0.8em;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+#submit_button:hover {
+  color: white;
+  background-color: #02bd9c;
+}
+
+.submit_button:focus {
+  outline: none !important;
+  border: 2px solid #008060;
+}
+
+#reset_button {
+  max-width: 150px;
+  padding: 1em;
+  border: 2px solid red;
+  color: red;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+#reset_button:hover {
+  color: white;
+  background-color: red;
+}
+
+#back_button {
+  max-width: 150px;
+  margin: 2px;
+  border: 2px solid red;
+  padding: 0.8em;
+  color: red;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  caret-color: transparent;
+}
+
+#back_button:hover {
+  color: white;
+  background-color: red;
+}
+
+.button_holder {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.button_holder_finish {
+  margin-top: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.education_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.experience_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.education_header {
+  margin-top: 8px;
+  background-image: radial-gradient(
+      circle at 24% 76%,
+      rgb(0, 76, 63) 0%,
+      rgb(0, 76, 63) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 76%,
+      rgb(0, 76, 63) 0%,
+      rgb(0, 76, 63) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 24%,
+      rgb(0, 76, 63) 0%,
+      rgb(0, 76, 63) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 24% 24%,
+      rgb(0, 76, 63) 0%,
+      rgb(0, 76, 63) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgb(0, 128, 96) 0%,
+      rgb(0, 128, 96) 71%,
+      transparent 71%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(0, 76, 63), rgb(0, 76, 63));
+  background-size: 23px 23px;
+  height: 10.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.education_title {
+  color: white;
+  font-family: Roboto;
+  font-size: 2em;
+}
+
+.experience_header {
+  margin-top: 8px;
+  background-image: radial-gradient(
+      circle at 24% 76%,
+      rgb(2, 189, 156) 0%,
+      rgb(2, 189, 156) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 76%,
+      rgb(2, 189, 156) 0%,
+      rgb(2, 189, 156) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 76% 24%,
+      rgb(2, 189, 156) 0%,
+      rgb(2, 189, 156) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at 24% 24%,
+      rgb(2, 189, 156) 0%,
+      rgb(2, 189, 156) 10%,
+      transparent 10%,
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at center center,
+      rgb(0, 0, 0) 0%,
+      rgb(0, 0, 0) 71%,
+      transparent 71%,
+      transparent 100%
+    ),
+    linear-gradient(90deg, rgb(2, 189, 156), rgb(2, 189, 156));
+  background-size: 23px 23px;
+  height: 10.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience_title {
+  color: white;
+  font-family: Roboto;
+  font-size: 2em;
+}
+
+.headline_circle {
+  background-color: black;
+  height: 10.5vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.line_break {
+  border-bottom: 1px solid black;
+  width: calc(100% - 50px);
+}
+
+.resume_holder {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.fullname {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.phone {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.section_heading {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.bio {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.profession {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.company {
+  margin-top: 0;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.date {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.regular {
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.bold_headline {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.email_info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.career_section {
+  display: flex;
+}
+
+.left_justified {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_justified {
+  display: flex;
+  flex-direction: column;
+}
+
+.career_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+}
+
+.institution {
+  display: flex;
+  justify-content: center;
+}
