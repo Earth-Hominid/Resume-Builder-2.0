@@ -10,6 +10,8 @@ This project's purpose is to refactor React Class Components into Functional Com
 
 In order to practice using React Hooks, I have refactored my original Resume Builder application (which was built using React Class Components) using React Hooks and functional components.
 
+<img width="888" alt="resume-builder" src="https://user-images.githubusercontent.com/66766688/185726616-1f090675-e93e-44b2-91a7-d3277f22718b.png">
+
 Switch statements were utilized to build a "stepping through process", which provides this one page application the feel of multiple pages.
 
 [Live Demo](https://earth-hominid.github.io/Resume-Builder-2.0/) :point_left:
@@ -17,6 +19,8 @@ Switch statements were utilized to build a "stepping through process", which pro
 The original project, [Resume-Builder 1.0](https://github.com/Earth-Hominid/Resume-Builder-1.0), consisted of creating a web-application that empowers a user to create their own resume and automatically formats it for them.
 
 This was an excellent project for learning about state in React.
+
+<img width="914" alt="resume-builder-1" src="https://user-images.githubusercontent.com/66766688/185726624-28e2dd18-80b6-487d-b022-c79d93736391.png">
 
 ## Install
 
