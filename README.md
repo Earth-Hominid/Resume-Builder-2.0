@@ -14,7 +14,7 @@ Switch statements were utilized to build a "stepping through process", which pro
 
 [Live Demo](https://earth-hominid.github.io/Resume-Builder-2.0/) :point_left:
 
-The original project, **Resume-Builder 1.0**, consisted of creating a web-application that empowers a user to create their own resume and automatically formats it for them.
+The original project, [Resume-Builder 1.0](https://github.com/Earth-Hominid/Resume-Builder-1.0), consisted of creating a web-application that empowers a user to create their own resume and automatically formats it for them.
 
 This was an excellent project for learning about state in React.
 
