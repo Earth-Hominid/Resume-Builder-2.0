@@ -20,7 +20,7 @@ The original project, [Resume-Builder 1.0](https://github.com/Earth-Hominid/Resu
 
 This was an excellent project for learning about state in React.
 
-<img width="914" alt="resume-builder-1" src="https://user-images.githubusercontent.com/66766688/185726624-28e2dd18-80b6-487d-b022-c79d93736391.png">
+<img width="916" alt="resume-builder-2" src="https://user-images.githubusercontent.com/66766688/185726641-d02d4596-608c-4da5-a3ff-f6309be2c798.png">
 
 ## Install
 
